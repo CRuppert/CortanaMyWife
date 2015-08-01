@@ -23,7 +23,24 @@
 			<Feedback> If she says so. </Feedback>
 			<Navigate/>
 		</Command>
-		
+		<Command Name="autoMyWifeWontPutOut">
+			<Example> won't put out  </Example>
+			<ListenFor> won't put out </ListenFor>
+			<Feedback> That's terrible, did you ask her about Sarah? </Feedback>
+			<Navigate/>
+		</Command>
+		<Command Name="autoMyWifeShopsTooMuch">
+			<Example> shops Too Much  </Example>
+			<ListenFor> shops too much </ListenFor>
+			<Feedback> Yeah, and I hear she won't put out either. </Feedback>
+			<Navigate/>
+		</Command>
+		<Command Name="autoMyWifeIsBleeding">
+			<Example> is bleeding  </Example>
+			<ListenFor> is bleeding </ListenFor>
+			<Feedback> I trust you put her in the ceremonial pit during this troubled time, so the evil spirits don't infest you, correct? </Feedback>
+			<Navigate/>
+		</Command>
 		<PhraseList Label="isA">
 			<Item> jerk </Item>
 		</PhraseList>
