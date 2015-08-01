@@ -41,6 +41,12 @@
 			<Feedback> I trust you put her in the ceremonial pit during this troubled time, so the evil spirits don't infest you, correct? </Feedback>
 			<Navigate/>
 		</Command>
+		<Command Name="autoSaysImCute">
+			<Example> says I'm Cute  </Example>
+			<ListenFor> says I'm Cute </ListenFor>
+			<Feedback> Really? And how much did you pay her to say that? </Feedback>
+			<Navigate/>
+		</Command>
 		<PhraseList Label="isA">
 			<Item> jerk </Item>
 		</PhraseList>
