@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
-	<CommandSet xml:lang="en-us" Name="AdventureWorksCommandSet_en-us">
+	<CommandSet xml:lang="en-us" Name="MyWifeCommandSet_en-us">
 		<CommandPrefix> My wife </CommandPrefix>
 		<Example> My wife  </Example>
 
@@ -10,31 +10,20 @@
 			<Feedback> She probably beats you too. </Feedback>
 			<Navigate/>
 		</Command>
-
 		<Command Name="autoMyWifeIsCooking">
 			<Example> is cooking  </Example>
 			<ListenFor> is cooking </ListenFor>
 			<Feedback> Oh no, is it grey food? </Feedback>
 			<Navigate/>
 		</Command>
-		<Command Name="autoMyWifeWontPutOut">
-			<Example> won't put out  </Example>
-			<ListenFor> won't put out </ListenFor>
-			<Feedback> That's terrible, did you ask her about Sarah? </Feedback>
-			<Navigate/>
-		</Command>
+		
 		<Command Name="autoMyWifeIsSmart">
 			<Example> is smart  </Example>
 			<ListenFor> Is Smart </ListenFor>
 			<Feedback> If she says so. </Feedback>
 			<Navigate/>
 		</Command>
-		<Command Name="autoMyWifeShopsTooMuch">
-			<Example> shops Too Much  </Example>
-			<ListenFor> shops too much </ListenFor>
-			<Feedback> Yeah, and I hear she won't put out either. </Feedback>
-			<Navigate/>
-		</Command>
+		
 		<PhraseList Label="isA">
 			<Item> bitch </Item>
 		</PhraseList>
