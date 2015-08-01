@@ -18,7 +18,7 @@ namespace MyWifeDomain.VoiceCommandHandlers
                 Commands.Add((IVoiceCommand)Activator.CreateInstance(c));
             }
         }
-        protected IList<IVoiceCommand> Commands{get;set;}
+        public IList<IVoiceCommand> Commands{get; }
 
         public async void HandleCommand(VoiceCommandActivatedEventArgs args)
         {
@@ -31,6 +31,11 @@ namespace MyWifeDomain.VoiceCommandHandlers
             var cmd = Commands.FirstOrDefault(t => t.CommandName.ToLower().Equals(cmdName.ToLower()));
 
             cmd?.Execute(speechRecogResult.SemanticInterpretation);
+        }
+
+        public void AddCommand(IVoiceCommand command)
+        {
+            this.Commands.Add(command);
         }
     }
 }
