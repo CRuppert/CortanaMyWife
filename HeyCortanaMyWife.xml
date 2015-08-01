@@ -5,7 +5,7 @@
 		<Example> My wife  </Example>
 
 		<Command Name="myWifeIsA">
-			<Example> my wife is a bitch  </Example>
+			<Example> my wife is a jerk  </Example>
 			<ListenFor> is a {isA} </ListenFor>
 			<Feedback> She probably beats you too. </Feedback>
 			<Navigate/>
@@ -25,7 +25,7 @@
 		</Command>
 		
 		<PhraseList Label="isA">
-			<Item> bitch </Item>
+			<Item> jerk </Item>
 		</PhraseList>
 
 <!--		<PhraseTopic Label="newDestination" Scenario="Search">-->
