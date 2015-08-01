@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+	<CommandSet xml:lang="en-us" Name="AdventureWorksCommandSet_en-us">
+		<CommandPrefix> My wife </CommandPrefix>
+		<Example> My wife  </Example>
+
+		<Command Name="myWifeIsA">
+			<Example> my wife is a bitch  </Example>
+			<ListenFor> is a {isA} </ListenFor>
+			<Feedback> She probably beats you too. </Feedback>
+			<Navigate/>
+		</Command>
+
+		<Command Name="myWifeIsCooking">
+			<Example> is cooking  </Example>
+			<ListenFor> is cooking </ListenFor>
+			<Feedback> Oh no, is it grey food? </Feedback>
+			<Navigate/>
+		</Command>
+		<Command Name="myWifeWontPutOut">
+			<Example> won't put out  </Example>
+			<ListenFor> won't put out </ListenFor>
+			<Feedback> That's terrible, did you ask her about Sarah? </Feedback>
+			<Navigate/>
+		</Command>
+		<PhraseList Label="isA">
+			<Item> bitch </Item>
+		</PhraseList>
+
+<!--		<PhraseTopic Label="newDestination" Scenario="Search">-->
+<!--			<Subject>City/State</Subject>-->
+<!--		</PhraseTopic>-->
+	</CommandSet>
+
+	<!-- Other CommandSets for other languages -->
+
+</VoiceCommands>
